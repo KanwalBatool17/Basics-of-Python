@@ -4,7 +4,7 @@ def sort(List_num):
 
     for i in range (2):
         mini = i
-        for j in range (i,3):
+        for j in range (i,5):
             if List_num [j] < List_num [mini]:
                 mini = j
 
@@ -14,7 +14,7 @@ def sort(List_num):
 
         print(List_num)
 
-List_num = [8,5,2]
+List_num = [8,5,2,4,6]
 sort(List_num)
 
 print(List_num)
