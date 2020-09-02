@@ -2,7 +2,7 @@ print(" --------------------- For Loop-------------------------------")
 
 def sort(List_num):
 
-    for i in range (0,2):
+    for i in range (2):
         mini = i
         for j in range (i,3):
             if List_num [j] < List_num [mini]:
