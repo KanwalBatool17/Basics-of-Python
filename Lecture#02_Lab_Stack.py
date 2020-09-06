@@ -24,3 +24,4 @@ print(Fruit_List)
 
 Fruit_List.pop()
 print(Fruit_List)
+
